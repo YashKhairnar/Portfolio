@@ -1,11 +1,11 @@
-import cloudflare from "../assets/cloudflare-2.svg";
-import spacy from "../assets/spacy.svg";
-import sklearn from "../assets/scikit-learn.svg"
-import mlt from "../assets/Matplotlib.svg"
-import redis from "../assets/Redis.svg"
-import sel from "../assets/Selenium.svg"
-import sqla from "../assets/SQLAlchemy.svg"
-import streamlit from "../assets/Streamlit.svg"
+import cloudflare from "../public/assets/cloudflare-2.svg";
+import spacy from "../public/assets/spacy.svg";
+import sklearn from "../public/assets/scikit-learn.svg"
+import mlt from "../public/assets/Matplotlib.svg"
+import redis from "../public/assets/Redis.svg"
+import sel from "../public/assets/Selenium.svg"
+import sqla from "../public/assets/SQLAlchemy.svg"
+import streamlit from "../public/assets/Streamlit.svg"
 
 export default function Stack(){
     return(

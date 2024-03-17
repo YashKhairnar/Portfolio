@@ -1,5 +1,5 @@
-import role from "../assets/role.png";
-import Y from "../assets/Y.svg";
+import role from "../public/assets/role.png";
+import Y from "../public/assets/Y.svg";
 
 export default function Navbar(){
     return (

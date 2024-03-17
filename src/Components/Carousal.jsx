@@ -1,8 +1,8 @@
 import { useState } from "react"
-import gfg from "../assets/gfg.png";
-import cn from "../assets/cn.png";
-import cf from "../assets/cf.webp";
-import lc from "../assets/lc.png"
+import gfg from "../public/assets/gfg.png";
+import cn from "../public/assets/cn.png";
+import cf from "../public/assets/cf.webp";
+import lc from "../public/assets/lc.png"
 
 export default function Carousal(){
     const slides = [
