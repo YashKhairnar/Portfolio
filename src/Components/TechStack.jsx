@@ -34,12 +34,12 @@ export default function Stack(){
                 <div><img width="96" height="96" src="/assets/scikit-learn.svg" alt="scikit-learn" /></div>
                 <div><img width="96" height="96" src="https://img.icons8.com/color/96/numpy.png" alt="numpy"/></div>
                 <div><img width="96" height="96" src="https://img.icons8.com/color/96/pandas.png" alt="pandas"/></div>
-                <div><img width="96" height="96" src="/assets/Matplotlib.png" alt="mlt" /></div>
+                <div><img width="96" height="96" src="/assets/Matplotlib.svg" alt="mlt" /></div>
                 <div><img width="96" height="96" src="https://img.icons8.com/fluency/96/bash.png" alt="bash"/></div>
                 <div><img width="96" height="96" src="/assets/Redis.svg" alt="redis" /></div>
                 <div><img width="96" height="96"src="/assets/Selenium.svg" alt="Se" /></div>
                 <div><img width="96" height="96" src="/assets/SQLAlchemy.svg"alt="SQLA" /></div>
-                <div><img width="96" height="96" src="/assets/Streamlit.g" alt="Streamlit" /></div>
+                <div><img width="96" height="96" src="/assets/Streamlit.svg" alt="Streamlit" /></div>
                 
             </div>
 
