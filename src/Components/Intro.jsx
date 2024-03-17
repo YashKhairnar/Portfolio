@@ -13,7 +13,7 @@ export default function Intro(){
                 <Bullets/>
             </div>
 
-            <div className="h-300 w-full bg-no-repeat bg-contain" style={{ backgroundImage: 'url(../public/assets/role.png)' }}/>
+            <div className="h-300 w-full bg-no-repeat bg-contain" style={{ backgroundImage: 'url(/assets/role.png)' }}/>
         </div>
     )
 }
