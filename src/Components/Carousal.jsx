@@ -3,22 +3,22 @@ import { useState } from "react"
 export default function Carousal(){
     const slides = [
         {  
-            "path":"../public/assets/cn.png",
+            "path":"public/assets/cn.png",
             "name":"coding ninjas",
             "link":"https://www.codingninjas.com/studio/profile/6b5f9065-d52b-4e49-9617-6d292c7aeb5d"
         },
         {  
-            "path": "../public/assets/gfg.png",
+            "path": "public/assets/gfg.png",
             "name":"Geeks for Geeks",
             "link": "https://auth.geeksforgeeks.org/user/yashk11/?utm_source=geeksforgeeks&utm_medium=my_profile&utm_campaign=auth_user"
         },
         {  
-            "path":"../public/assets/lc.png",
+            "path":"public/assets/lc.png",
             "name":"Leetcode",
             "link":"https://leetcode.com/esotericyoda_11/"
         },
         {  
-            "path":"../public/assets/cf.webp",
+            "path":"public/assets/cf.webp",
             "name":"Codeforces",
             "link":"https://codeforces.com/profile/Zeus_11"
         }
