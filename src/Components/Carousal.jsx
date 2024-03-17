@@ -36,7 +36,7 @@ export default function Carousal(){
                 <button onClick={prevSlide} className="relative top-1/2 "><img width="30" height="30" src="https://img.icons8.com/ios-filled/50/circled-chevron-left.png" alt="circled-chevron-left"/></button>
                 <div className="flex flex-col justify-center items-center w-fit h-[300px]">
                     <img key={index} src={slides[index].path} width="200" height="200" alt={`slide-${index + 1}`} />
-                    <a className="p-4 text-2xl" href={slides[index].link}>{slides[index].name}</a>
+                    <a className="p-4 text-2xl" href={slides[index].link}>🔗 {slides[index].name}</a>
                 </div>
                 <button onClick={nextSlide} className="relative top-1/2 right-0 "><img width="30" height="30" src="https://img.icons8.com/ios-filled/50/circled-chevron-right.png" alt="circled-chevron-right"/></button>
         </div>
