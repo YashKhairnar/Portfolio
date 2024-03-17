@@ -18,7 +18,7 @@ export default function Carousal(){
             "link":"https://leetcode.com/esotericyoda_11/"
         },
         {  
-            "path":"public/assets/cf.webp",
+            "path":"../public/assets/cf.webp",
             "name":"Codeforces",
             "link":"https://codeforces.com/profile/Zeus_11"
         }
