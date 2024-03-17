@@ -1,24 +1,28 @@
 import { useState } from "react"
+import gfg from "../assets/gfg.png";
+import cn from "../assets/cn.png";
+import cf from "../assets/cf.webp";
+import lc from "../assets/lc.png"
 
 export default function Carousal(){
     const slides = [
         {  
-            "path":"./src/assets/cn.png",
+            "path":cn,
             "name":"coding ninjas",
             "link":"https://www.codingninjas.com/studio/profile/6b5f9065-d52b-4e49-9617-6d292c7aeb5d"
         },
         {  
-            "path": "./src/assets/gfg.png",
+            "path": gfg,
             "name":"Geeks for Geeks",
             "link": "https://auth.geeksforgeeks.org/user/yashk11/?utm_source=geeksforgeeks&utm_medium=my_profile&utm_campaign=auth_user"
         },
         {  
-            "path":"./src/assets/lc.png",
+            "path":lc,
             "name":"Leetcode",
             "link":"https://leetcode.com/esotericyoda_11/"
         },
         {  
-            "path":"./src/assets/cf.webp",
+            "path":cf,
             "name":"Codeforces",
             "link":"https://codeforces.com/profile/Zeus_11"
         }

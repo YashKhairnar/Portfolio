@@ -1,8 +1,11 @@
+import role from "../assets/role.png";
+import Y from "../assets/Y.svg";
+
 export default function Navbar(){
     return (
         <div className="flex justify-between">
             <div className="font-poppins text-2xl text-white p-10 flex justify-center items-center">
-            <div className="h-10 w-10 rounded-full bg-center bg-cover" style={{ backgroundImage: 'url(../src/assets/Y.svg)' }}></div>
+            <div className="h-10 w-10 rounded-full bg-center bg-cover"><img src={Y} alt="logo" /></div>
                 <span className="font-poppins text-2xl text-white"> | Portfolio</span>
             </div>
             <ul className="font-poppins text-gray-500 font-bold text-lg flex items-center gap-10 p-10 ">

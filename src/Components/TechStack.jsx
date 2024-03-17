@@ -1,3 +1,12 @@
+import cloudflare from "../assets/cloudflare-2.svg";
+import spacy from "../assets/spacy.svg";
+import sklearn from "../assets/scikit-learn.svg"
+import mlt from "../assets/Matplotlib.svg"
+import redis from "../assets/Redis.svg"
+import sel from "../assets/Selenium.svg"
+import sqla from "../assets/SQLAlchemy.svg"
+import streamlit from "../assets/Streamlit.svg"
+
 export default function Stack(){
     return(
         <div id='techstack' className="p-20">
@@ -22,23 +31,23 @@ export default function Stack(){
                 <div><img width="96" height="96" src="https://img.icons8.com/color/96/mongodb.png" alt="mongodb"/></div>
                 <div><img width="96" height="96" src="https://img.icons8.com/color/96/postgreesql.png" alt="postgreesql"/></div>
                 <div><img width="96" height="96" src="https://img.icons8.com/color/96/amazon-web-services.png" alt="amazon-web-services"/></div>
-                <div><img width="96" height="96" src="./src/assets/cloudflare-2.svg" alt="cloudflare" /></div>
+                <div><img width="96" height="96" src={cloudflare} alt="cloudflare" /></div>
                 <div><img width="96" height="96" src="https://img.icons8.com/color/96/docker.png" alt="docker"/></div>
                 <div><img width="96" height="96" src="https://img.icons8.com/color/96/git.png" alt="git"/></div>
                 <div><img width="96" height="96" src="https://img.icons8.com/fluency/96/pytorch.png" alt="pytorch"/></div>
                 <div><img width="96" height="96" src="https://img.icons8.com/color/96/opencv.png" alt="opencv"/></div>
                 <div><img width="96" height="96" src="https://img.icons8.com/color/96/tensorflow.png" alt="tensorflow"/></div>
                 <div><img width="96" height="96" src="https://img.icons8.com/material/96/000000/keras.png" alt="keras"/></div>
-                <div><img width="96" height="96" src="./src/assets/spacy.svg" alt="spacy" /></div>
-                <div><img width="96" height="96" src="./src/assets/scikit-learn.svg" alt="scikit-learn" /></div>
+                <div><img width="96" height="96" src={spacy} alt="spacy" /></div>
+                <div><img width="96" height="96" src={sklearn} alt="scikit-learn" /></div>
                 <div><img width="96" height="96" src="https://img.icons8.com/color/96/numpy.png" alt="numpy"/></div>
                 <div><img width="96" height="96" src="https://img.icons8.com/color/96/pandas.png" alt="pandas"/></div>
-                <div><img width="96" height="96" src="src/assets/Matplotlib.svg" alt="mlt" /></div>
+                <div><img width="96" height="96" src={mlt} alt="mlt" /></div>
                 <div><img width="96" height="96" src="https://img.icons8.com/fluency/96/bash.png" alt="bash"/></div>
-                <div><img width="96" height="96" src="./src/assets/Redis.svg" alt="redis" /></div>
-                <div><img width="96" height="96"src="./src/assets/Selenium.svg" alt="Se" /></div>
-                <div><img width="96" height="96" src="./src/assets/SQLAlchemy.svg" alt="SQLA" /></div>
-                <div><img width="96" height="96" src="./src/assets/Streamlit.svg" alt="Streamlit" /></div>
+                <div><img width="96" height="96" src={redis} alt="redis" /></div>
+                <div><img width="96" height="96"src={sel} alt="Se" /></div>
+                <div><img width="96" height="96" src={sqla} alt="SQLA" /></div>
+                <div><img width="96" height="96" src={streamlit} alt="Streamlit" /></div>
                 
             </div>
 
