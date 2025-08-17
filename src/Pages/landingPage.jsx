@@ -4,7 +4,8 @@ import Overview from "../Components/Overview"
 import Work from "../Components/work"
 import Stack from "../Components/TechStack"
 import Connect from "../Components/Connect"
-import Dsa from "../Components/Dsa"
+// import Dsa from "../Components/Dsa"
+import ProjectsShowcase from "../Components/projects"
 
 export default function LandingPage(){
     return (
@@ -13,9 +14,10 @@ export default function LandingPage(){
             <Intro/>
             <Overview/>
             <Work/>
+            <ProjectsShowcase/>
             <Stack/>
             <Connect/>
-            <Dsa/>
+            {/* <Dsa/> */}
         </div>
     )
 }
